@@ -1,0 +1,39 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class Lesson_26_EntradaDeDadosP1 {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe um nome (somente letras):");
+		String x;
+		x = sc.next();
+		
+		System.out.println("Você digitou: " + x);
+		System.out.println();
+				
+		int x1;
+		
+		System.out.println("Informe um número (somente números inteiros):");
+		x1 = sc.nextInt();
+	
+		System.out.println("Você digitou: " + x1);
+		System.out.println();
+		
+		double x2;
+		
+		System.out.println("Informe um valor com vírgula:");
+		x2 = sc.nextDouble();
+		
+		System.out.printf("Você digitou: %.2f%n",x2);
+		System.out.println();
+		
+		
+		sc.close();
+
+	}
+
+}

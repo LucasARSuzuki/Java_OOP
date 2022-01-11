@@ -1,0 +1,56 @@
+package curso_programacao;
+
+public class Lesson_25 {
+
+	public static void main(String[] args) {
+		
+		
+		int x;
+		double y;
+		
+		x = 5;
+		
+		y = 2 * x;
+		
+		System.out.println("Exemplo 01:");
+		System.out.println(x);
+		System.out.println(y);
+		
+		int x2;
+		double y2;
+		
+		x = 5;
+		
+		y = 2 * x2;
+		
+		System.out.println("Exemplo 02:");
+		System.out.println(x2);
+		System.out.println(y2);
+		
+		double b, B, h, area;
+		
+		b = 6.0;
+		B = 8.0;
+		h = 5.0;
+		
+		area = (b + B)/ 2.0 * h;
+		
+		System.out.println();
+		System.out.println("Exemplo 02:");
+		System.out.println(area);
+		
+		int a, b3;
+		double resultado;
+		
+		a = 5;
+		b3 = 2;
+		
+		resultado = (double) a/b3;
+		
+		System.out.println();
+		System.out.println("Exemplo 03:");
+		System.out.println(resultado);
+
+	}
+
+}
